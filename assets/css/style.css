@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Redressed&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,200&family=Roboto:wght@100;300&family=Vollkorn:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    height: 100%;
+    background: #030328;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.26);
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav img{
+    width: 175px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+nav ul li:nth-child(1){
+    padding: 10px 35px;
+}
+
+nav ul li:nth-child(2){
+    padding: 10px 35px;
+    background: #B535F6;
+    border-radius: 50px;
+}
+
+
+.banner{
+    color: #fff;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    padding: 150px 0 ;
+}
+
+.banner h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.try-it{
+    width: 100%;
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3C106F, #4D13BD, #3D109E, #350D4B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.try-it div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+
+.try-it div p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.try-it div a{
+    font-size: 1rem;
+    background: #B535F6;
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
